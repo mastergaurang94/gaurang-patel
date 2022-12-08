@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build:tailwind": "tailwindcss -i styles/globals.css -o dist/globals.css",
+    "build:postcss": "postcss dist/globals.css -o dist/globals.min.css",
+    "build:css": "npm run build:tailwind && npm run build:postcss",
+    "build": "npm run build:css && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,9 +17,18 @@
     "@types/react-dom": "18.0.9",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "typeface-vollkorn": "^1.1.13",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4"
   }
 }
