@@ -19,13 +19,18 @@
     "eslint-config-next": "13.0.5",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sanitize-html": "^2.7.3",
     "typeface-vollkorn": "^1.1.13",
     "typescript": "4.9.3"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/markdown-it": "^12.2.3",
+    "@types/sanitize-html": "^2.6.2",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
     "postcss-cli": "^10.1.0",

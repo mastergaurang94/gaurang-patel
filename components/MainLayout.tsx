@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className={`mx-auto py-8`} style={{ fontFamily: "Vollkorn, serif", width: "720px" }}>
       <header className="container">
-        <div className={`flex flex-row justify-between`}>
+        <div className={`flex flex-col justify-between`}>
           <div className={`flex justify-start`}>
             <Link href="/">
               <div className={`text-3xl font-bold LinkText`}>
@@ -12,15 +12,16 @@ export default function Layout({ children }) {
               </div>
             </Link>
           </div>
-          <div className="w-6 h-6 self-center">
-            <svg className="fill-current text-gray-600" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+          <div className={`flex justify-start pt-2 gap-4`}>
+            <Link href="/about" className={`text-lg text-blue-500 LinkText`}>About</Link>
+            <Link href="/contact" className={`text-lg text-blue-500 LinkText`}>Contact</Link>
           </div>
         </div>
       </header>
 
       <main className="container mx-auto">{children}</main>
 
-      <footer className="mt-8 py-4">
+      <footer className="py-2">
         <div className="container">
           &copy; 2022 Gaurang Patel
         </div>

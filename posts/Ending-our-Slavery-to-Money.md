@@ -3,14 +3,12 @@ title: 'Ending our Slavery to Money'
 metaTitle: 'Ending our Slavery to Money'
 metaDesc: 'Ending our Slavery to Money'
 image: images/22-09-2021.jpg
-date: 'December 31, 2021'
+date: '2021-09-21'
 tags:
   - ai
 ---
 
-# Ending our Slavery to Money
-
-One of my favorite quotes ever: 
+One of my favorite quotes ever:
 
 "It\'s all wrong. By rights we shouldn\'t even be here. But we are. It\'s like in the great stories Mr. Frodo. The ones that really mattered. 
 

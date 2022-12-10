@@ -3,12 +3,10 @@ title: 'Life School Manifesto'
 metaTitle: 'Life School Manifesto'
 metaDesc: 'Life School Manifesto'
 image: images/22-09-2021.jpg
-date: 'December 31, 2021'
+date: '2021-08-20'
 tags:
   - ai
 ---
-
-# Life School Manifesto
 
 One of my favorite quotes ever: 
 

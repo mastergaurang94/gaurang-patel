@@ -3,12 +3,10 @@ title: 'The Renaissance of AI'
 metaTitle: 'The Renaissance of AI'
 metaDesc: 'The Renaissance of AI'
 image: images/22-09-2021.jpg
-date: 'December 31, 2021'
+date: '2021-06-22'
 tags:
   - ai
 ---
-
-# The Renaissance of AI
 
 One of my favorite quotes ever: 
 
