@@ -40,7 +40,8 @@ function BlogPost({ slug, frontmatter, content }: Post) {
         <Link href="#" className={`pl-1 text-blue-500 LinkText`}>
           consider sending a tip here
         </Link>. <br></br><br></br>Or
-        <Link href="https://twitter.com/share" className={`pl-1 text-blue-500 LinkText`}>
+        <Link href="https://twitter.com/share" className={`pl-1 text-blue-500 LinkText`}
+          target="_blank" rel="noopener noreferrer">
           Tweet
         </Link> it.
       </div>

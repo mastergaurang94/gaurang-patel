@@ -39,4 +39,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -  [ ] Subscribe by email
 -  [ ] Bug: PostLayout loads twice every time
 -  [ ] Links to external websites in new pop up (Twitter)
--  [ ] Content is not centered on mobile
