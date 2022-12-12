@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={`container mx-auto max-w-2/3 sm:max-w-full py-8 px-4`} style={{ fontFamily: "Vollkorn, serif" }}>
+    <div className={`container mx-auto w-2/3 sm:max-w-full py-8 px-4`} style={{ fontFamily: "Vollkorn, serif" }}>
       <header className="container mx-auto">
         <div className={`flex flex-col justify-between`}>
           <div className={`flex justify-start`}>
