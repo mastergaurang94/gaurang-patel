@@ -21,4 +21,4 @@ A new day will come. And when the sun shines it will shine out the clearer. Thos
 
 But I think, Mr. Frodo, I do understand. I know now. Folk in those stories had lots of chances of turning back only they didn\'t. Because they were holding on to something.   
 
-That there\'s some good in this world, Mr. Frodo. And it\'s worth fighting for.
+That there\'s some good in this world, Mr. Frodo. And it\'s worth fighting for."
