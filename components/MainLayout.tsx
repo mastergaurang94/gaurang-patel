@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -9,6 +10,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="container mx-auto">
         <div className={`flex flex-col justify-between`}>
           <div className={`flex justify-start`}>
+            <Image
+              src="/favicon.ico"
+              alt="Logo"
+              width={36}
+              height={36}
+              className="mr-2"
+            />
             <Link href="/">
               <div className={`text-3xl font-bold LinkText`}>Gaurang Patel</div>
             </Link>
