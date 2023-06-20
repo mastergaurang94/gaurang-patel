@@ -9,8 +9,8 @@ export default function About() {
         I support people in navigating their journey through the crypto jungle.
       </p>
       <p className="text-lg leading-relaxed my-4">
-        For one-on-one private calls, please reach out to me directly with a
-        referral. I only accept crypto as payment.
+        For one-on-one private calls, please reach out to me directly. I only
+        accept crypto as payment.
       </p>
     </div>
   );
