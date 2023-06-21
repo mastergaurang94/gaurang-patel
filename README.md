@@ -6,8 +6,8 @@ First, run the development server:
 npm run dev
 ```
 
-### Blog Features For Later
+### Features For Later
 
 -  [ ] Subscribe by email
 -  [ ] Bug: PostLayout loads twice every time
--  [ ] Add a logo to url tab
+-  [ ] Add BTCPayServer, LN Pay as payment options
