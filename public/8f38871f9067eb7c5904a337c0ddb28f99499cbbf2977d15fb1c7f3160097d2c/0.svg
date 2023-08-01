@@ -1,0 +1,55 @@
+<svg viewBox="0 0 810 810" fill="none" style="width:100%;background:white;" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="hexagon" fill="white" stroke-width="12" d="M72.6769 22.2472L42.5 4.82457C40.953 3.93141 39.047 3.93141 37.5 4.82457L7.32309 22.2472C5.77608 23.1404 4.82309 24.791 4.82309 26.5774V61.4226C4.82309 63.209 5.77608 64.8596 7.32309 65.7528L37.5 83.1754C39.047 84.0686 40.953 84.0686 42.5 83.1754L72.6769 65.7528C74.2239 64.8596 75.1769 63.209 75.1769 61.4226V26.5774C75.1769 24.791 74.2239 23.1404 72.6769 22.2472Z" />
+        <linearGradient id="gradient1" x1="0%" x2="0%" y1="25%" y2="81%">
+    <stop stop-color="#fb00ff">
+      <animate attributeName="stop-color" values="#fb00ff;#ff005d;#ff3300;#ff8800;#ffe600;#eeff00;#80ff00;#00ffbf;#00c3ff;#0033ff;#7b00ff;#d400ff;#ff00cc;#d400ff;#7b00ff;#0033ff;#00c3ff;#00ffbf;#80ff00;#eeff00;#ffe600;#ff8800;#ff3300;#ff005d;#fb00ff;#fb00ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+    <stop offset="0.72" stop-color="#7b00ff">
+      <animate attributeName="stop-color" values="#7b00ff;#d400ff;#ff00cc;#ff0011;#ff6600;#ffb300;#ffff00;#b3ff00;#00ff11;#00f7ff;#0077ff;#5500ff;#aa00ff;#5500ff;#0077ff;#00f7ff;#00ff11;#b3ff00;#ffff00;#ffb300;#ff6600;#ff0011;#ff00cc;#d400ff;#7b00ff;#7b00ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+  </linearGradient>
+<linearGradient id="gradient2" x1="0%" x2="0%" y1="25%" y2="81%">
+    <stop stop-color="#7b00ff">
+      <animate attributeName="stop-color" values="#7b00ff;#d400ff;#ff00cc;#ff0011;#ff6600;#ffb300;#ffff00;#b3ff00;#00ff11;#00f7ff;#0077ff;#5500ff;#aa00ff;#5500ff;#0077ff;#00f7ff;#00ff11;#b3ff00;#ffff00;#ffb300;#ff6600;#ff0011;#ff00cc;#d400ff;#7b00ff;#7b00ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+    <stop offset="0.72" stop-color="#00e6ff">
+      <animate attributeName="stop-color" values="#00e6ff;#0055ff;#6600ff;#bb00ff;#ff00ea;#ff0040;#ff4c00;#ff9900;#fff700;#d4ff00;#62ff00;#00ffee;#0099ff;#00ffee;#62ff00;#d4ff00;#fff700;#ff9900;#ff4c00;#ff0040;#ff00ea;#bb00ff;#6600ff;#0055ff;#00e6ff;#00e6ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+  </linearGradient>
+<linearGradient id="gradient3" x1="0%" x2="0%" y1="25%" y2="81%">
+    <stop stop-color="#00e6ff">
+      <animate attributeName="stop-color" values="#00e6ff;#0055ff;#6600ff;#bb00ff;#ff00ea;#ff0040;#ff4c00;#ff9900;#fff700;#d4ff00;#62ff00;#00ffee;#0099ff;#00ffee;#62ff00;#d4ff00;#fff700;#ff9900;#ff4c00;#ff0040;#ff00ea;#bb00ff;#6600ff;#0055ff;#00e6ff;#00e6ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+    <stop offset="0.72" stop-color="#d400ff">
+      <animate attributeName="stop-color" values="#d400ff;#ff00cc;#ff0011;#ff6600;#ffb300;#ffff00;#b3ff00;#00ff11;#00f7ff;#0077ff;#5500ff;#aa00ff;#fb00ff;#aa00ff;#5500ff;#0077ff;#00f7ff;#00ff11;#b3ff00;#ffff00;#ffb300;#ff6600;#ff0011;#ff00cc;#d400ff;#d400ff" dur="40s" begin="animation.begin" repeatCount="indefinite" />
+    </stop>
+  </linearGradient>
+      </defs>
+      <rect width="810" height="810" fill="white" />
+      <g transform="scale(1) rotate(150, 405, 405)">
+            <use href="#hexagon" stroke="url(#gradient1)" x="325" y="301" />
+<use href="#hexagon" stroke="url(#gradient1)" x="397" y="301" />
+<use href="#hexagon" stroke="url(#gradient2)" x="289" y="361" />
+<use href="#hexagon" stroke="url(#gradient2)" x="361" y="361" />
+<use href="#hexagon" stroke="url(#gradient2)" x="433" y="361" />
+<use href="#hexagon" stroke="url(#gradient3)" x="325" y="421" />
+<use href="#hexagon" stroke="url(#gradient3)" x="397" y="421" />
+            
+          </g>
+      <!-- <g transform="scale(1)">
+    <text x="10" y="20" font-size="12" fill="black">hexagonType: pointy</text>
+<text x="10" y="40" font-size="12" fill="black">shape: hexagon</text>
+<text x="10" y="60" font-size="12" fill="black">rows: 3</text>
+<text x="10" y="80" font-size="12" fill="black">rotation: 150</text>
+<text x="10" y="100" font-size="12" fill="black">maxColors: 6</text>
+<text x="10" y="120" font-size="12" fill="black">strokeWidth: 12</text>
+<text x="10" y="140" font-size="12" fill="black">duration: 40</text>
+<text x="10" y="160" font-size="12" fill="black">backgroundColor: white</text>
+<text x="10" y="180" font-size="12" fill="black">fillColor: white</text>
+    </g>-->
+      <rect width="810" height="810" fill="transparent">
+        <animate id="animation" attributeName="width" from="810" to="0" dur="0.2s"
+          begin="click" fill="freeze" />
+      </rect>
+    </svg>
