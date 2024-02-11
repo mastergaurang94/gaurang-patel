@@ -6,6 +6,8 @@ First, run the development server:
 npm run dev
 ```
 
+Welcome!
+
 ### Features For Later
 
 -  [ ] Subscribe by email
