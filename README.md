@@ -11,5 +11,4 @@ Welcome!
 ### Features For Later
 
 -  [ ] Subscribe by email
--  [ ] Bug: PostLayout loads twice every time
--  [ ] Add BTCPayServer, LN Pay as payment options
+- [ ] Bug: PostLayout loads twice every time

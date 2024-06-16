@@ -43,12 +43,7 @@ function BlogPost({ slug, frontmatter, content }: Post) {
 
       <div className="text-lg pb-8">
         If you found value in this post,
-        <Link
-          href="https://account.venmo.com/u/Gaurang-Patel-1"
-          className={`pl-1 text-blue-500 LinkText`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="/about" className={`pl-1 text-blue-500 LinkText`}>
           consider sending a tip here
         </Link>
         . <br></br>

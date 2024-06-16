@@ -37,7 +37,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="container mx-auto">{children}</main>
 
       <footer className="container mx-auto py-2">
-        <div className="container">&copy; 2023 Gaurang Patel</div>
+        <div className="container">&copy; 2024 Gaurang Patel</div>
       </footer>
     </div>
   );

@@ -9,8 +9,14 @@ export default function About() {
         I support people in navigating their journey through the crypto jungle.
       </p>
       <p className="text-lg leading-relaxed my-4">
-        For one-on-one private calls, please reach out to me directly. I only
-        accept crypto as payment.
+        To tip me, you can send me some BTC, ETH, or SOL at these addresses:
+      </p>
+      <p className="text-lg leading-relaxed my-4">
+        <code>bc1q4x87pmelz75c3g62p6ntvaevu4qgefxyngwl83</code>
+        <br></br>
+        <code>0x65744fFD6cF921F1989f7F7D2cffCaB9Fe2fC085</code>
+        <br></br>
+        <code>4UTmXN414x37xpEQV7AKX1McbdF6m3wq8cSEcA6ja55L</code>
       </p>
     </div>
   );
