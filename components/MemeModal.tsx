@@ -15,7 +15,7 @@ const MemeModal: React.FC<MemeModalProps> = ({ imageUrl, onClose }) => {
     >
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10 flex justify-center items-center">
         <div
-          className="bg-white rounded-lg shadow-lg p-4 relative mx-4 w-[96vw]"
+          className="bg-white rounded-lg shadow-lg p-4 relative mx-4 w-[96vw] md:w-[60vw]"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex justify-end items-center pb-2">
