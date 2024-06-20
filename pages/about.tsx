@@ -18,6 +18,19 @@ export default function About() {
         <br></br>
         <code>4UTmXN414x37xpEQV7AKX1McbdF6m3wq8cSEcA6ja55L</code>
       </p>
+      <p className="text-lg leading-relaxed my-4">
+        My Twitter handle is
+        <Link
+          className="pl-1 text-blue-500 LinkText"
+          href="https://twitter.com/mastergaurang94"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @mastergaurang94
+        </Link>
+        .
+      </p>
+      <p className="text-lg leading-relaxed">Have a wonderful day!</p>
     </div>
   );
 }

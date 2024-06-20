@@ -11,6 +11,12 @@ import type Post from "../types/Post";
 
 // create a component that renders a blog post
 function BlogPost({ slug, frontmatter, content }: Post) {
+  const twitterShareUrl = `https://twitter.com/share?url=${encodeURIComponent(
+    `https://gaurangpatel.xyz/${slug}`
+  )}&text=${encodeURIComponent(
+    `Check out this essay by @mastergaurang94!\n\n`
+  )}${encodeURIComponent(frontmatter.title)}`;
+
   return (
     <div>
       <div className={`py-8`}>
@@ -49,7 +55,7 @@ function BlogPost({ slug, frontmatter, content }: Post) {
         . <br></br>
         <br></br>Or
         <Link
-          href="https://twitter.com/share"
+          href={twitterShareUrl}
           className={`pl-1 text-blue-500 LinkText`}
           target="_blank"
           rel="noopener noreferrer"

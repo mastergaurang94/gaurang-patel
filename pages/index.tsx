@@ -1,10 +1,15 @@
-import type Post from "../types/Post";
-import { PostLayout } from "../components/PostLayout";
-import { getStaticProps } from "../utils/getStaticProps";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import { NextPage } from "next";
 
-const Index = ({ posts }: { posts: Post[] }) => {
-  return <PostLayout posts={posts} slug={""} />;
+const Index: NextPage = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/memecoins");
+  }, [router]);
+
+  return null;
 };
 
 export default Index;
-export { getStaticProps };
