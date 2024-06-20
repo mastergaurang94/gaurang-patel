@@ -30,7 +30,7 @@ const Memecoin: React.FC<MemecoinProps> = ({
 
   const renderLinks = () => {
     const linkLabels: { [key: string]: string } = {
-      contractAddress: "Contract Address",
+      contractAddress: "Address",
       dexscreenerUrl: "Dexscreener",
       pumpFunUrl: "Pump.fun",
       raydiumUrl: "Buy on Raydium",
@@ -41,7 +41,7 @@ const Memecoin: React.FC<MemecoinProps> = ({
     return Object.entries(links)
       .filter(([key, value]) => value)
       .map(([key, value], index, array) => (
-        <span key={key}>
+        <span key={key} className="">
           <Link
             href={value!}
             className="text-blue-500 hover:underline"
@@ -54,6 +54,7 @@ const Memecoin: React.FC<MemecoinProps> = ({
         </span>
       ));
   };
+
 
   const openModal = () => {
     setModalOpen(true);
