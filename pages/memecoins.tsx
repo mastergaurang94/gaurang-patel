@@ -1,5 +1,6 @@
 import memecoins from "../utils/memecoinsData";
 import Memecoin from "../components/Memecoin";
+import Link from "next/link";
 
 export default function Memecoins() {
   return (
@@ -34,7 +35,16 @@ export default function Memecoins() {
         There&apos;s no pretending to be more than what they are. I don&apos;t
         know what the future holds, nor do I have any answers, but I hope you
         resonate with them and they bring some joy into your lives. <br></br>
-        <br></br>You can follow updates here on this page or on Twitter.
+        <br></br>You can follow updates here on this page or on{" "}
+        <Link
+          className="text-blue-500 LinkText"
+          href="https://x.com/mastergaurang94/status/1799968556618035438"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </Link>
+        .
       </p>
 
       <div className="mt-8 space-y-4">
