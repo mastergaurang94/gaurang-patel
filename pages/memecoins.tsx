@@ -22,7 +22,7 @@ export default function Memecoins() {
           </li>
           <li className="my-1">
             <span className="font-medium">Entertainment with a Purpose:</span>{" "}
-            Please understand memecoins lie at the end of the risk curve for a
+            Please understand memecoins lay at the end of the risk curve for a
             reason. I don&apos;t ignore the risk and volatility. At the same
             time, I can&apos;t ignore the unrivaled access to creative
             expression, financial advancement, and collaborative potential that
