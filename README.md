@@ -10,5 +10,4 @@ Welcome!
 
 ### Features For Later
 
--  [ ] Subscribe by email
-- [ ] Bug: PostLayout loads twice every time
+See `docs/backlog.md`.

@@ -3,7 +3,10 @@ type Post = {
   frontmatter: {
     title: string;
     date: string;
-  }
+    metaTitle?: string;
+    metaDesc?: string;
+    tags?: string[];
+  };
   content: string;
 };
 

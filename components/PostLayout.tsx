@@ -22,7 +22,7 @@ export const PostLayout = ({ posts, slug }: { posts: Post[]; slug: string; }) =>
         <div className="mb-6 text-lg font-bold">Recent Posts</div>
         {posts.map((post: Post) => (
           <div key={post.slug} className={`text-lg`}>
-            <Link href={`${post.slug}`} className={`text-blue-500 LinkText`}>
+            <Link href={`/${post.slug}`} className={`text-blue-500 LinkText`}>
               {post.frontmatter.title}
             </Link>
           </div>

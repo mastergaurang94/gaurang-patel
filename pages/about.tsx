@@ -1,15 +1,36 @@
 import Link from "next/link";
+import Seo from "../components/Seo";
+import { SITE_NAME, SITE_URL } from "../utils/site";
 
 export default function About() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: SITE_NAME,
+    url: SITE_URL,
+    sameAs: ["https://twitter.com/mastergaurang94"],
+  };
+
   return (
     <div className="py-8">
+      <Seo
+        title="About"
+        description="About Gaurang Patel, writer and builder."
+        path="/about"
+        jsonLd={jsonLd}
+      />
       <h2 className="text-4xl py-4 font-bold">About</h2>
-      <p className="text-lg leading-relaxed my-4">I&apos;m Gaurang Patel.</p>
       <p className="text-lg leading-relaxed my-4">
-        I support people in navigating their journey through the crypto jungle.
+        I&apos;m Gaurang Patel. I build products at the intersection of crypto,
+        culture, and human behavior.
       </p>
       <p className="text-lg leading-relaxed my-4">
-        To tip me, you can send me some BTC, ETH, or SOL at these addresses:
+        I&apos;m open to roles where I can ship real products, learn fast, and
+        work with people who care about craft.
+      </p>
+      <p className="text-lg leading-relaxed my-4">
+        If you want to support my writing or work, you can send a tip to any of
+        these addresses:
       </p>
       <p className="text-lg leading-relaxed my-4">
         <code>bc1q4x87pmelz75c3g62p6ntvaevu4qgefxyngwl83</code>
