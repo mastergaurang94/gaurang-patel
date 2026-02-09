@@ -23,7 +23,7 @@ export default function Home({ posts }: { posts: Post[] }) {
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "Essays and notes on technology, crypto, and building in public.",
+      "Gaurang Patel — backend engineer building AI infrastructure and conversational AI products.",
     publisher: {
       "@type": "Person",
       name: SITE_NAME,
@@ -34,20 +34,28 @@ export default function Home({ posts }: { posts: Post[] }) {
     <div className="py-8">
       <Seo
         title="Home"
-        description="Essays and notes on technology, crypto, and building in public."
+        description="Gaurang Patel — backend engineer building AI infrastructure and conversational AI products."
         path="/"
         jsonLd={jsonLd}
       />
 
-      <h1 className="text-4xl py-4 font-bold">Writing, thoughts, and work</h1>
+      <h1 className="text-4xl py-4 font-bold">Gaurang Patel</h1>
       <p className="text-lg leading-relaxed my-4">
-        I&apos;m Gaurang Patel. I write about technology, crypto, and the
-        lessons I&apos;m learning while building. I&apos;m also open to roles
-        where I can ship real products and grow with a great team.
+        Backend engineer with strong product instincts. I spent 4+ years at
+        Tinder as an early hire scaling distributed systems through hypergrowth.
+        Now I&apos;m building across the AI stack &mdash; most recently{" "}
+        <Link href="https://github.com/mastergaurang94/agent-sentinel" className="text-blue-500 LinkText" target="_blank" rel="noopener noreferrer">
+          Agent Sentinel
+        </Link>
+        , an LLM governance proxy, and{" "}
+        <Link href="https://github.com/mastergaurang94/lumen" className="text-blue-500 LinkText" target="_blank" rel="noopener noreferrer">
+          Lumen
+        </Link>
+        , a privacy-first AI coaching companion.
       </p>
       <p className="text-lg leading-relaxed my-4">
-        If you&apos;re looking for a quick entry point, start with the latest
-        essay or browse the archive.
+        I write here occasionally. Start with the latest essay or browse the
+        archive.
       </p>
 
       {latestPost ? (

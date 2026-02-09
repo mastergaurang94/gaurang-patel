@@ -34,11 +34,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/" className={`text-lg text-blue-500 LinkText`}>
               Home
             </Link>
-            <Link href="/essays" className={`text-lg text-blue-500 LinkText`}>
-              Essays
-            </Link>
             <Link href="/about" className={`text-lg text-blue-500 LinkText`}>
               About
+            </Link>
+            <Link href="/essays" className={`text-lg text-blue-500 LinkText`}>
+              Essays
             </Link>
             <Link
               href="https://honeycombs.xyz"
